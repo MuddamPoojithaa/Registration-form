@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="register">
+        <h1><u>Registration Form</u></h1>
+        <form action="successful.html">
+        <label>Full Name :</label>
+        <input type="text" name="fname" id="name" placeholder=" Enter Your Full Name"><br><br>
+        <br>
+            <label>Hallticket :</label>
+        <input type="text" name="hallticket"
+        id="name" placeholder=" Enter Your Full Name">
+        <br><br>
+        <lable>Gender :</lable>
+        <input type="radio" name="gender"
+        id="male">
+        &nbsp;
+        <id="male">Male</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender"
+        id="fele">
+        &nbsp;
+        <span id="female">Female</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender"
+        id="Other">
+        &nbsp;
+        <span id="Other">Other</span>
+        <br><br>
+        <lable>Email id :</lable>
+        <input type="email" name="email"
+        id="name" placeholder="example@gmail.com">
+        <br><br>
+        <label>Password :</label>
+        <br>
+        <input type="password" name="password"
+        id="name" placeholder="Set Password">
+        <br><br>
+        <lable>Confirm Password :</lable>
+        <br>
+        <input type="Confirm Password" name="Confirm Password"
+        id="name" placeholder="Confirm Password">
+        <br><br>
+        <lable>Branch :</lable>
+        <br>
+        <select>
+            <option>Select Your Branch</option>
+            <option value="AIML">AIM(Arificial Intelligence machine learning)</option>
+            <option value="CSE">CSE(Computer science engineering)</option>
+            <option value="DS">DS(Data science)</option>
+
+        </select>
+        <br><br>
+        <label>Address :</label>
+        <br>
+        <input type="text" name ="addresss"
+        id="name" placeholder="Enter your Addrress">
+        <br><br>
+               <label>Upload Photo</label> <input type="file" x-ref="file" @change="fileName = $refs.file.files[0].name" name="img[]" class="d-none">
+                <br><br>
+                <div class="container">
+                    <div class="input-group shadow">
+           <br>
+            <input type="submit" value="Submit">
+
+         <input type="Reset">  <input id="cancelButton" style="" onclick="cancelButton_Click" type="button" value="Cancel">
+
+        </form>
+        </div>
+           <br>
+
+           <br>
+
+            </div>
+           </div>
+
+        </form>
+    </div>
+</div>
+<script>
+    function clearForm() {
+        document.getElementById("input-name").value = "";
+        document.getElementById("input-email").value = "";
+    }
+</script>
+</body>
+</html>
