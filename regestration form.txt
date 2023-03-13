@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>regestration form</title>
+</head>
+<body>
+<font size=4 face="arail">
+<p align="center">form example</p>
+<form name="input" action="#" method="post">
+<field set>
+<b><u><center><legend>regestration form</b></u></center></legend>
