@@ -5,10 +5,11 @@ Helps to manage one of the most important processess for student management whic
                           course details
                           Branch & year
                           
-                          
-  ![image](https://user-images.githubusercontent.com/127126687/230760027-a6fa0281-be57-4822-aa9a-8a19a4633289.png)
+   ![image](https://user-images.githubusercontent.com/127126687/230789348-ebdb6afe-3985-4521-8aac-67e41d20067f.png)
+                     
   
-  ![image](https://user-images.githubusercontent.com/127126687/230760197-a056900e-d699-44cc-88b6-4ccac50bc42f.png)
+  ![image](https://user-images.githubusercontent.com/127126687/230789358-73fb5f7a-a1b4-4c19-a685-366e556b1d72.png)
+
 
 
 
